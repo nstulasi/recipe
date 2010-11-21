@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Recipe-U-like | <%= @title %></title>
+    <title><%= title %></title>
     <%= csrf_meta_tag %>
+      <%= stylesheet_link_tag 'default' %>
   </head>
   <body>
     <%= yield %>
